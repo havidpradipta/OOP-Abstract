@@ -15,11 +15,11 @@ namespace OOP_Abstrac
 			Implementasi imple = new Implementasi();
 			string nama = "Havid Pradipta Husada";
 			string almt = "Pati";
-            string Umur = "19";
+                        string Umur = "19";
 			string NIM = "2721";
 			string Jurusan = "Informatika";
 
-			imple.ShowKTP(nama, almt);
+			imple.ShowKTP(nama, almt,umur);
 			imple.ShowMHS(nama, NIM, Jurusan);
 
 			Console.ReadKey(true);
