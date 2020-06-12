@@ -19,7 +19,7 @@ namespace OOP_Abstrac
 			string NIM = "2721";
 			string Jurusan = "Informatika";
 
-			imple.ShowKTP(nama, almt,umur);
+			imple.ShowKTP(nama, almt,Umur);
 			imple.ShowMHS(nama, NIM, Jurusan);
 
 			Console.ReadKey(true);
